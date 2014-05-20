@@ -73,6 +73,8 @@ GEM
     database_cleaner (1.2.0)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
+    dogecoin_api (0.0.5)
+      httparty
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
@@ -91,6 +93,9 @@ GEM
       multi_json (~> 1.3)
     hashie (2.1.1)
     hike (1.2.3)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.9)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
@@ -213,6 +218,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   devise!
+  dogecoin_api
   dotenv-rails
   factory_girl_rails
   jbuilder (~> 1.2)

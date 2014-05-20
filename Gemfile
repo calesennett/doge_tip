@@ -61,6 +61,7 @@ group :development do
   gem 'better_errors'
 end
 
+gem 'dogecoin_api'
 gem 'binding_of_caller'
 gem 'devise', github: 'plataformatec/devise'
 gem 'omniauth'
